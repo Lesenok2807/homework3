@@ -40,7 +40,6 @@ import signImg from '../image/sign.svg';
 
  const SignImg = styled.img`
     height: 32px;
-    widght: 32px;
     margin-bottom: 5px;
  `;
 
