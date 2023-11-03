@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logoImg from '../image/logo.svg';
-import signImg from '../image/sign.svg';
+import logoImg from '../../image/logo.svg';
+import signImg from '../../image/sign.svg';
 
  const NavBarStyled = styled.header`
     position: flex;
@@ -9,7 +9,7 @@ import signImg from '../image/sign.svg';
     left: 0;
     z-index: 999;
     height: 80px;
-    widht: 100vw;
+    widht: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ import signImg from '../image/sign.svg';
     font-size: 18px;
  `;
 
- export const NavBar = () => (
+ export const Navbar = () => (
     <NavBarStyled>
         <Logo>
             <ImgLogo src={logoImg} alt="logo" />

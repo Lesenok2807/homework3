@@ -11,7 +11,7 @@ export const ButtonCheckout = styled.button`
     width: 250px;
     height: 65px;
     cursor: pointer;
-    transition-property: color? background-color, border-color;
+    transition-property: color, background-color, border-color;
     transition-duration: .3s;
     &:hover {
         background-color: #fff;
